@@ -14,7 +14,7 @@ IOT Basic Training with Cayenne
 
 ##Wiring 
 
-[![NodeMCU Wiring](https)](Wiring )
+[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigOne.PNG?raw=true)](Wiring )
 
 ##Code
 
