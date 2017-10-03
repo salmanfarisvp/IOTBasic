@@ -5,14 +5,14 @@ IOT Basic Training with Cayenne
 
 ### 1.LDR Serial Monitoring 
 
-#### what we need ..?
+#### Components
 
 *NodeMCU
 *LDR
 *1K Ohm Resistor 
 *BreadBoard
 
-#### Wiring 
+#### Diagram
 
 [![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigOne.PNG?raw=true)](Wiring )
 
@@ -36,9 +36,9 @@ void loop()
  }
 ```
 
-## 2.LDR Sensor Data to Cloud
+### 2.LDR Sensor Data to Cloud
 
-#### Componets 
+#### Components
 
 *NodeMCU
 *Cayenne account
@@ -46,9 +46,9 @@ void loop()
 *1K Ohm Resistor 
 *BreadBoard
 
-#### Diagrame
+#### Diagram
 
-[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigTwo.PNG?raw=true)](Wiring )
+[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigOne.PNG?raw=true)](Wiring )
 
 #### Code
 
@@ -56,8 +56,8 @@ void loop()
 #include <CayenneMQTTESP8266.h>
 #include <ESP8266WiFi.h>
 
-char ssid[] = "FoxLab";
-char password[] = "foxlabmakerspace";
+char ssid[] = "*****";
+char password[] = "****";
 
 char username[] = "****************";
 char mqtt_password[] = "***********";
@@ -86,5 +86,61 @@ void loop()
 
 
 ```
+
+### 3.Control Servo Motor Using Cayenne 
+
+#### Components
+
+*NodeMCU
+*Cayenne account
+*Servo
+*BreadBoard
+
+#### Diagram
+
+[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigTwo.PNG?raw=true)](Wiring )
+
+#### Code
+
+```
+#include <Servo.h>
+
+#include <CayenneMQTTESP8266.h>
+#include <ESP8266WiFi.h>
+
+char ssid[] = "****";
+char password[] = "****";
+
+char username[] = "***********************";
+char mqtt_password[] = "******************";
+char client_id[] = "**********************";
+
+Servo myservo;
+
+
+void setup()
+{
+  myservo.attach(D2);
+
+  Cayenne.begin(username,mqtt_password,client_id,ssid,password);
+}
+
+void loop()
+{
+  Cayenne.loop();
+   
+ }
+
+CAYENNE_IN(1)
+{
+
+  myservo.write(getValue.asInt());
+}
+  
+
+
+```
+
+
 
 
