@@ -3,20 +3,20 @@ IOT Basic Training with Cayenne
 
 ## Projects 
 
-1 . LDR Serial Monitoring 
+### 1.LDR Serial Monitoring 
 
-## what we need ..?
+#### what we need ..?
 
 *NodeMCU
 *LDR
 *1K Ohm Resistor 
 *BreadBoard
 
-## Wiring 
+#### Wiring 
 
 [![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigOne.PNG?raw=true)](Wiring )
 
-## Code
+#### Code
 
 ```
 int ldr = A0;
@@ -36,9 +36,9 @@ void loop()
  }
 ```
 
-2 . LDR Sensor Data to Cloud
+## 2.LDR Sensor Data to Cloud
 
-## what we need ..?
+#### Componets 
 
 *NodeMCU
 *Cayenne account
@@ -46,11 +46,11 @@ void loop()
 *1K Ohm Resistor 
 *BreadBoard
 
-## Wiring 
+#### Diagrame
 
 [![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigTwo.PNG?raw=true)](Wiring )
 
-## Code
+#### Code
 
 ```
 #include <CayenneMQTTESP8266.h>
