@@ -70,7 +70,7 @@ int ldr_data;
 void setup()
 {
 
-    ayenne.begin(username,mqtt_password,client_id,ssid,password);
+    Cayenne.begin(username,mqtt_password,client_id,ssid,password);
 
     pinMode(A0,INPUT);
   
