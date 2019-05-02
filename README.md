@@ -1,5 +1,12 @@
 # IOTBasic 
-IOT Basic Training with Cayenne :-https://salmanfarisvp.github.io/IOTBasic/
+IOT Basic Training with Cayenne
+
+## prerequisite
+
+* Computer/laptop with Installed Arduino IDE :[here](https://www.arduino.cc/en/Main/Software)
+* NodeMCU board manager
+* LED,LDR,DHT, Resistor , Jumber Wires , Breadboard 
+
 
 
 ## 1.LDR Serial Monitoring 
