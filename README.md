@@ -3,9 +3,11 @@ IOT Basic Training with Cayenne
 
 ## prerequisite
 
-* Computer/laptop with Installed [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+* Internet connected Computer/laptop Installed [Arduino IDE](https://www.arduino.cc/en/Main/Software) Installed 
 * [NodeMCU board manager](https://github.com/esp8266/Arduino)
-* LED,LDR,DHT, Resistor , Jumber Wires , Breadboard 
+* LED, LDR, DHT, Resistor , Jumber Wires , Breadboard 
+* [Mydevice Cayenne](https://cayenne.mydevices.com) account.
+
 
 
 
