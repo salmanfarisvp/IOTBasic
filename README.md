@@ -22,7 +22,8 @@ IOT Basic Training with Cayenne
 
 #### Diagram
 
-[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigOne.PNG?raw=true)](Wiring )
+[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/res/img/iotTrainigOne.PNG?raw=true)](Wiring )
+
 
 #### Code
 
@@ -58,7 +59,7 @@ void loop()
 
 #### Diagram
 
-[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigOne.PNG?raw=true)](Wiring )
+[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/res/img/iotTrainigOne.PNG?raw=true)](Wiring )
 
 #### Code
 
@@ -109,7 +110,7 @@ void loop()
 
 #### Diagram
 
-[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigTwo.PNG?raw=true)](Wiring )
+[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/res/img/iotTrainigTwo.PNG?raw=true)](Wiring )
 
 #### Code
 
@@ -164,7 +165,7 @@ CAYENNE_IN(1)
 
 #### Diagram
 
-[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/iotTrainigThree.PNG?raw=true)](Wiring )
+[![NodeMCU Wiring](https://github.com/salmanfarisvp/IOTBasic/blob/master/res/img/iotTrainigThree.PNG?raw=true)](Wiring )
 
 #### Code
 
