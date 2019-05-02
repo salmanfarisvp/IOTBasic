@@ -1,7 +1,7 @@
 # IOTBasic 
 IOT Basic Training with Cayenne
 
-## prerequisite
+## Prerequisite
 
 * Internet connected Computer/laptop Installed [Arduino IDE](https://www.arduino.cc/en/Main/Software) Installed 
 * [NodeMCU board manager](https://github.com/esp8266/Arduino)
