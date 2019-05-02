@@ -7,6 +7,7 @@ IOT Basic Training with Cayenne
 * [NodeMCU board manager](https://github.com/esp8266/Arduino)
 * LED, LDR, DHT, Resistor , Jumber Wires , Breadboard 
 * [Mydevice Cayenne](https://cayenne.mydevices.com) account.
+* [Libraries](https://github.com/salmanfarisvp/IOTBasic/tree/master/res/library)
 
 
 
