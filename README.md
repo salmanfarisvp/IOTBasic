@@ -52,11 +52,11 @@ void loop()
 
 #### Components
 
-*NodeMCU
-*Cayenne account
-*LDR
-*1K Ohm Resistor 
-*BreadBoard
+* NodeMCU
+* Cayenne account
+* LDR
+* 1K Ohm Resistor 
+* BreadBoard
 
 #### Diagram
 
