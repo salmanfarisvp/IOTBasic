@@ -16,10 +16,10 @@ IOT Basic Training with Cayenne
 
 #### Components
 
-*NodeMCU
-*LDR
-*1K Ohm Resistor 
-*BreadBoard
+* NodeMCU
+* LDR
+* 1K Ohm Resistor 
+* BreadBoard
 
 #### Diagram
 
@@ -104,10 +104,10 @@ void loop()
 
 #### Components
 
-*NodeMCU
-*Cayenne account
-*Servo
-*BreadBoard
+* NodeMCU
+* Cayenne account
+* Servo
+* BreadBoard
 
 #### Diagram
 
@@ -159,10 +159,10 @@ CAYENNE_IN(1)
 
 #### Components
 
-*NodeMCU
-*Cayenne account
-*DHT11
-*BreadBoard
+* NodeMCU
+* Cayenne account
+* DHT11
+* BreadBoard
 
 #### Diagram
 
